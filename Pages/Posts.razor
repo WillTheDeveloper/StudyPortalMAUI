@@ -1,0 +1,8 @@
+﻿@page "/posts"
+
+@using StudyPortalMAUI.Data;
+@inject PostsService PostService;
+
+<h3>Posts</h3>
+
+<p>@PostService.GetPost().Title</p>
